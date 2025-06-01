@@ -2,8 +2,6 @@
 
 A modern, interactive business intelligence dashboard built with React, featuring real-time data updates, interactive charts, and comprehensive export capabilities.
 
-![Dashboard Preview](./screenshots/dashboard-preview.png)
-
 ## 🚀 Quick Start
 
 ### Prerequisites
