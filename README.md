@@ -168,46 +168,12 @@ VITE_ENABLE_PERSISTENCE=true
 
 // Traffic Data
 {
+}
+
+// Traffic Data
+{
   time: "10:00",
   visitors: 1250,
   pageViews: 3200,
   bounceRate: "32.1"
 }
-```
-
-## 🚀 Deployment
-
-### Netlify
-1. Push your code to GitHub
-2. Connect repository to Netlify
-3. Set build command: `npm run build`
-4. Set publish directory: `dist`
-
-### Vercel
-```bash
-npm install -g vercel
-vercel --prod
-```
-
-### GitHub Pages
-```bash
-npm run build
-# Deploy dist folder to gh-pages branch
-```
-
-## 🔍 Troubleshooting
-
-### Common Issues
-
-**Port already in use**
-```bash
-# Kill process on port 3000
-npx kill-port 3000
-```
-
-**Module not found errors**
-```bash
-# Clear node_modules and reinstall
-rm -rf node_modules package-lock.json
-npm install
-```
